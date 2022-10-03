@@ -6,7 +6,12 @@
 trigger:
 - main
 
+resources:
+- repo: self
+  clean: false
+
 pool:
+
   vmImage: ubuntu-latest
 
 steps:
